@@ -8,26 +8,39 @@
         <style>
             .container {
                 position: relative;
+               
             }
         
             .topleft {
                 position: absolute;
                 top: 8px;
-                left: 16px;
+                left: 24px;
                 font-size: 18px;
+               
             }
-        
+            .logo {
+
+              background: black;
+
+               
+            }
+            .logo:hover{
+
+                opacity: 0;
+
+            }
             img {
                 width: 100%;
                 height: auto;
-                opacity: 0.3;
+                
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class = "topleft">
-                <img src="images/SuperDefGames1.png" alt="Logo">
+                <img class="logo" src="images/SuperDefGames1.png" alt="Logo">
+                <img class = "active" src="images" alt = "Animation">
             </div>
            
         </div>
